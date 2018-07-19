@@ -15,7 +15,7 @@ button, .fa, a, .footer p {
   transition-duration: 0.8s !important;
 }
 
-button:hover, .fa:hover, a:hover, .photo-overlay:hover img, .footer p:hover {
+button:hover, .fa:hover, a:hover, .photo-overlay:hover img {
   transform: scale(1.1)!important;
 }
 
@@ -147,7 +147,6 @@ button:hover, .fa:hover, a:hover, .photo-overlay:hover img, .footer p:hover {
 
 .banner img {
   width: 100%;
-  margin: 30px 0;
 }
 
 button {
@@ -279,12 +278,15 @@ margin-top: 20px;
   text-align: center;
 }
 
+
+
 .footer a {
   color: black;
 }
 
 .footer p {
   font-size: 1em;
+  margin-top: 10px;
 }
 
 .footer p:hover {
@@ -384,29 +386,39 @@ margin-top: 20px;
 .modal-dialog{
     overflow-y: initial !important
 }
-.information-modal, .indie-modal, .sterilize-modal, .faq-modal{
+
+.age {
+    margin-top: 20px;
+}
+
+.information-modal, .indie-modal, .sterilize-modal, .faq-modal, .modal-international, .contact-modal, .donate-modal{
     height: 380px;
     overflow-y: auto;
 }
 
-.information-modal p, .indie-modal p, .sterilize-modal p, .faq-modal p {
+.information-modal p, .indie-modal p, .sterilize-modal p, .faq-modal p, .modal-international p, .contact-modal p {
   border: 3px solid rgb(243, 222, 195);
   padding: 10px;
   margin-top: 20px;
 }
 
- .information-modal strong {
+.contact-modal a {
+  color: rgba(185, 99, 70, 0.8);
+}
+
+.modal-footer button {
+  margin-top: 10px;
+}
+
+ strong {
   color: #e82b4c;;
 }
 
-.information-modal em {
+ em {
   font-weight: bold;
   color: #2ed22e;;
 }
 
-.indie-modal em, .sterilize-modal em {
-  font-weight: bold;
-}
 
 .donate-modal img {
   width: 40%;
@@ -415,6 +427,13 @@ margin-top: 20px;
   margin-bottom: 20px;
 }
 
+@media all and (min-width: 500px) {
+
+  .banner button {
+    margin-top: -70px;
+  }
+
+}
 
 
 @media all and (min-width: 736px) {
@@ -437,7 +456,13 @@ margin-top: 20px;
   }
 
   .banner img {
-    max-width: 450px;
+    max-width: 650px;
+    margin-top: -40px;
+  }
+
+  .banner button {
+    margin-top: -80px;
+    font-size: 1rem;
   }
 
   /* CONTENT */
@@ -493,6 +518,9 @@ margin-top: 20px;
     display: none;
   }
 
+
+
+
 }
 
 @media all and (min-width: 992px) {
@@ -509,8 +537,8 @@ margin-top: 20px;
   }
 
   button {
-    padding: 10px 40px;
-    font-size: 0.9em;
+    padding: 10px 30px;
+    font-size: 1rem;
   }
 
   .svg {
@@ -527,8 +555,14 @@ margin-top: 20px;
     height: 480px;
   }
 
+  .banner img {
+    max-width: 700px;
+    margin-top: -70px;
+  }
+
   .banner button {
     padding: 15px 50px;
+    margin-top: -95px;
   }
 
   /* CONTENT */
@@ -555,7 +589,8 @@ margin-top: 20px;
 
   .process h1 {
     text-align: start;
-    margin-left: 30px
+    margin-left: 30px;
+    margin-top: 90px;
   }
 
   .steps {
@@ -738,7 +773,7 @@ margin-top: 20px;
     width: 607px;
     position: absolute;
     margin-left: calc((100% - 980px) * 0.5);
-    top: 1620px;
+    top: 1610px;
     height: 638px;
     z-index: -1;
   }
@@ -748,7 +783,7 @@ margin-top: 20px;
     width: 216px;
     position: absolute;
     margin-left: calc((100% - 980px) * 0.5);
-    top: 2570px;
+    top: 2550px;
     height: 245px;
   }
 
@@ -760,6 +795,8 @@ margin-top: 20px;
     margin-left: calc((100% - 980px) * 0.5);
     top: 2650px;
   }
+
+
 
   /* MODAL */
 
@@ -786,7 +823,7 @@ margin-top: 20px;
     left: 150px;
   }
 
-  .process h1 {
-    margin-top: 10px;
-  }
+  /* .process h1 {
+    margin-top: 90px;
+  } */
 }

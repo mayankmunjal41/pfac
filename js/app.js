@@ -3,7 +3,7 @@ $("body").fadeIn(1000);
 
 $(".btn-1").click(function() {
     $('html, body').animate({
-        scrollTop: $(".about-us").offset().top
+        scrollTop: $(".about-pfac").offset().top
     }, 1000);
 });
 
