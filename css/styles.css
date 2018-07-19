@@ -47,6 +47,9 @@ button:hover, .fa:hover, a:hover, .photo-overlay:hover img {
   margin-right: 0 !important;
 }
 
+.navbar-nav {
+  margin-right: 0 !important;
+}
 
 
 .item {
