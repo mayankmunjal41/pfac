@@ -386,6 +386,10 @@ margin-top: 20px;
     margin-right: 25px;
 }
 
+.modal-content {
+  margin-top: 50px;
+}
+
 .modal-dialog{
     overflow-y: initial !important
 }
@@ -395,7 +399,7 @@ margin-top: 20px;
 }
 
 .information-modal, .indie-modal, .sterilize-modal, .faq-modal, .modal-international, .contact-modal, .donate-modal{
-    height: 380px;
+    height: 300px;
     overflow-y: auto;
 }
 
@@ -521,7 +525,16 @@ margin-top: 20px;
     display: none;
   }
 
+  /* MODAL */
 
+  .information-modal, .indie-modal, .sterilize-modal, .faq-modal, .modal-international, .contact-modal, .donate-modal{
+      height: 380px;
+      overflow-y: auto;
+  }
+
+  .modal-content {
+    margin-top: 0px;
+  }
 
 
 }
