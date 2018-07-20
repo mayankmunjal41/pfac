@@ -11,6 +11,8 @@ $('.navbar-toggler').click(function() {
   $(".icon").toggleClass("close");
 });
 
+$('.carousel').carousel('pause')
+
 
 $(document).ready(function(){
     $('a[href^="#adoption"]').on('click',function (e) {
