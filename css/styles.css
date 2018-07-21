@@ -418,12 +418,12 @@ margin-top: 20px;
 }
 
  strong {
-  color: #e82b4c;;
+  color: #e82b4c;
 }
 
  em {
   font-weight: bold;
-  color: #2ed22e;;
+  color: #2ed22e;
 }
 
 
@@ -434,7 +434,7 @@ margin-top: 20px;
   margin-bottom: 20px;
 }
 
-@media all and (min-width: 500px) {
+@media screen and (min-width: 500px) {
 
   .banner button {
     margin-top: -70px;
@@ -443,7 +443,7 @@ margin-top: 20px;
 }
 
 
-@media all and (min-width: 736px) {
+@media screen and (min-width: 736px) {
 
 
   .carousel-item p {
@@ -539,7 +539,7 @@ margin-top: 20px;
 
 }
 
-@media all and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
   .container-main {
     max-width: 992px;
@@ -821,13 +821,13 @@ margin-top: 20px;
 
 }
 
-@media all and (min-width: 1100px) {
+@media screen and (min-width: 1100px) {
   .paw-4 {
     left: 100px;
   }
 }
 
-@media all and (min-width: 1250px) {
+@media screen and (min-width: 1250px) {
 
   .container {
     margin: 0 90px;
