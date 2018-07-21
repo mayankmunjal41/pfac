@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,87 +11,88 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <style>
+    <style>
 
-    h1 {
-      margin-bottom: 20px;
-      margin-left: 0;
-    }
-
-    .custom-border {
-      border: 3px solid rgb(243, 222, 195);
-      padding: 10px 20px;
-      margin: 20px 0;
-    }
-
-    li {
-      margin-left: 10px;
-    }
-
-    .steps > div p {
-    margin: auto 0;
-    font-size: 1em;
-    }
-
-    .banner {
-      max-height: 380px;
-      margin: 0;
-      margin-bottom: 30px;
-    }
-
-
-    .process {
-      margin: 0 60px;
-    }
-
-    .footer p:first-child {
-      margin-top: 20px;
-    }
-
-    @media all and (min-width: 736px) {
-
-      .volunteer-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        border: 1px solid black;
+      h1 {
+        margin-bottom: 20px;
+        margin-left: 0;
       }
 
-      .volunteer-list li {
-        margin-top: 30px;
-        background-color: rgba(244, 236, 225, 1);
-        padding: 10px;
-        border-radius: 2%;
+      .custom-border {
+        border: 3px solid rgb(243, 222, 195);
+        padding: 10px 20px;
+        margin: 20px 0;
       }
 
-      h6 {
-        font-size: 1.25rem;
+      li {
+        margin-left: 10px;
       }
 
-    }
+      .steps > div p {
+      margin: auto 0;
+      font-size: 1em;
+      }
 
-      @media all and (min-width: 922px) {
-        .container-main {
-          max-width: 922px;
-          margin: 0 auto;
+      .banner {
+        max-height: 380px;
+        margin: 0;
+        margin-bottom: 30px;
+      }
+
+
+      .process {
+        margin: 0 60px;
+      }
+
+      .footer p:first-child {
+        margin-top: 20px;
+      }
+
+      @media all and (min-width: 736px) {
+
+        .volunteer-list {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          border: 1px solid black;
         }
+
+        .volunteer-list li {
+          margin-top: 30px;
+          background-color: rgba(244, 236, 225, 1);
+          padding: 10px;
+          border-radius: 2%;
+        }
+
+        h6 {
+          font-size: 1.25rem;
+        }
+
       }
 
-    </style>
+        @media all and (min-width: 922px) {
+          .container-main {
+            max-width: 922px;
+            margin: 0 auto;
+          }
+        }
+
+      </style>
+  </head>
+
   <body>
     <div class="container-main">
       <!-- NAVIGATION -->
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html"><img src="paw.svg" class="paw-nav"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <div class="icon">
       <span class="line top"></span>
       <span class="line middle"></span>
       <span class="line bottom"></span>
     </div>
 
-  </button>
+  </a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -105,7 +106,7 @@
         <a class="nav-link contact" href="volunteer.html">Volunteer</a>
       </li>
       <li class="nav-item text-center">
-        <a class="nav-link contact"data-toggle="modal" data-target="#contact" href="contact.html">Contact</a>
+        <a class="nav-link contact"data-toggle="modal" data-target="#contact" href="#">Contact</a>
       </li>
     </ul>
   </div>
@@ -222,12 +223,13 @@ recruited based on their form responses so please give them proper thought.</p>
             </div>
             <div class="modal-body faq-modal">
               <h6> Which shelters does Paws for a Cause collaborate with? </h6>
-      <p>-Animal Hospital & Shelter, Noida<br>
+      <p>While our primary aim is to help independent rescuers with adoptions,
+         we also collaborate with the following shelters:<br>
+            -Animal Hospital & Shelter, Noida<br>
             -Umeed the Rehabilitation Centre, Gurgaon<br>
             -Sanjay Gandhi Animal Care Centre, Raja Garden<br>
             -All Creatures Great & Small, Faridabad<br>
-            -Sonadi Charitable Trust, Najafgarh<br>
-            -We also work with multiple independent rescuers and welfare workers.</p>
+            -Sonadi Charitable Trust, Najafgarh</p>
 
       <h6>Can I foster a dog? What is the minimum number of days for fostering?</h6>
 
@@ -243,16 +245,13 @@ recruited based on their form responses so please give them proper thought.</p>
            <p>No. The age of a dog does not decide whether they will make good companion animals.
            Some things to keep in mind are:</p>
 
-          <p>1. Pups under 8 weeks of age should not be separated from their mother or siblings.
-           They require breast milk to develop a strong immune system and also learn several
-            important social skills from their mother and siblings.</p>
+           <p>1. Pups under 8 weeks of age should not be separated from their mother or siblings.
+            They require breast milk to develop a strong immune system and also learn several
+             important social skills from their mother and siblings.</p>
 
-          <p>  2. Adult dogs bond with adoptive families extremely well. It is a misconception that
-           an adult dog would be aloof and only pups must be adopted.</p>
+           <p>2. Adult dogs bond with adoptive families extremely well. It is a misconception that an adult dog would be aloof and only pups must be adopted.  </p>
 
-           <p>  3. Senior dogs make wonderful companions. They are usually gentle, low maintenance and
-           can be left alone for some time every day. Most importantly, you would be giving them a
-            respectful last few years of their life.</p>
+           <p>3. Senior dogs make wonderful companions. They are usually gentle, low maintenance and can be left alone for some time every day. Most importantly, you would be giving them a respectful last few years of their life.</p>
 
 
       <h6>Can I meet a dog I’m interested in adopting?</h6>
@@ -297,7 +296,7 @@ recruited based on their form responses so please give them proper thought.</p>
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">International Adoptions</h5>
+              <h5 class="modal-title">International Adoptions</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -329,7 +328,7 @@ recruited based on their form responses so please give them proper thought.</p>
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Contact Us!</h5>
+              <h5 class="modal-title">Contact Us!</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>

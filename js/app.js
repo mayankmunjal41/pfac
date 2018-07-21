@@ -11,7 +11,7 @@ $('.navbar-toggler').click(function() {
   $(".icon").toggleClass("close");
 });
 
-$('.carousel').carousel('pause')
+$('.carousel').carousel('pause');
 
 
 $(document).ready(function(){
