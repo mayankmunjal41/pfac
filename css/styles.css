@@ -331,6 +331,11 @@ margin-top: 20px;
   color: white;
 }
 
+.fa-twitter{
+  background: #38A1F3;
+  color: white;
+}
+
 .fa:hover {
   cursor: pointer;
   opacity: 0.7;
